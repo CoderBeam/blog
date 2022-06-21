@@ -1,0 +1,112 @@
+{
+  "groups": [
+    {
+      "name": "cos",
+      "type": "com.lppage.blog.config.CosConfigProperties",
+      "sourceType": "com.lppage.blog.config.CosConfigProperties"
+    },
+    {
+      "name": "qq",
+      "type": "com.lppage.blog.config.QQConfigProperties",
+      "sourceType": "com.lppage.blog.config.QQConfigProperties"
+    },
+    {
+      "name": "weibo",
+      "type": "com.lppage.blog.config.WeiboConfigProperties",
+      "sourceType": "com.lppage.blog.config.WeiboConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cos.app-id",
+      "type": "java.lang.String",
+      "description": "APPID",
+      "sourceType": "com.lppage.blog.config.CosConfigProperties"
+    },
+    {
+      "name": "cos.bucket-name",
+      "type": "java.lang.String",
+      "description": "桶的名称",
+      "sourceType": "com.lppage.blog.config.CosConfigProperties"
+    },
+    {
+      "name": "cos.region",
+      "type": "java.lang.String",
+      "description": "区域",
+      "sourceType": "com.lppage.blog.config.CosConfigProperties"
+    },
+    {
+      "name": "cos.secret-id",
+      "type": "java.lang.String",
+      "description": "初始化用户身份信息(secretId, secretKey) SecretId 是用于标识 API 调用者的身份",
+      "sourceType": "com.lppage.blog.config.CosConfigProperties"
+    },
+    {
+      "name": "cos.secret-key",
+      "type": "java.lang.String",
+      "description": "SecretKey是用于加密签名字符串和服务器端验证签名字符串的密钥",
+      "sourceType": "com.lppage.blog.config.CosConfigProperties"
+    },
+    {
+      "name": "cos.url",
+      "type": "java.lang.String",
+      "description": "访问路径前缀",
+      "sourceType": "com.lppage.blog.config.CosConfigProperties"
+    },
+    {
+      "name": "qq.app-id",
+      "type": "java.lang.String",
+      "description": "QQ appId",
+      "sourceType": "com.lppage.blog.config.QQConfigProperties"
+    },
+    {
+      "name": "qq.check-token-url",
+      "type": "java.lang.String",
+      "description": "校验token地址",
+      "sourceType": "com.lppage.blog.config.QQConfigProperties"
+    },
+    {
+      "name": "qq.user-info-url",
+      "type": "java.lang.String",
+      "description": "QQ用户信息地址",
+      "sourceType": "com.lppage.blog.config.QQConfigProperties"
+    },
+    {
+      "name": "weibo.access-token-url",
+      "type": "java.lang.String",
+      "description": "微博访问令牌地址",
+      "sourceType": "com.lppage.blog.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.app-id",
+      "type": "java.lang.String",
+      "description": "微博appId",
+      "sourceType": "com.lppage.blog.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.app-secret",
+      "type": "java.lang.String",
+      "description": "微博appSecret",
+      "sourceType": "com.lppage.blog.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.grant-type",
+      "type": "java.lang.String",
+      "description": "微博登录类型",
+      "sourceType": "com.lppage.blog.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.redirect-url",
+      "type": "java.lang.String",
+      "description": "微博回调域名",
+      "sourceType": "com.lppage.blog.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.user-info-url",
+      "type": "java.lang.String",
+      "description": "微博用户信息地址",
+      "sourceType": "com.lppage.blog.config.WeiboConfigProperties"
+    }
+  ],
+  "hints": []
+}
