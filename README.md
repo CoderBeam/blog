@@ -1,5 +1,5 @@
 # 博客介绍
-博客是基于Vue + SpringBoot开发的前后端分离博客，采用SpringSecurity进行权限管理，ElasticSearch全文搜索，支持QQ、微博第三方登录、在线聊天、发布说说等功能。
+博客是基于Vue + SpringBoot开发的前后端分离博客，采用SpringSecurity进行权限管理，ElasticSearch全文搜索，支持在线聊天、发布说说等功能。
 前端项目位于blog-vue下，blog为前台，admin为后台
 后端项目位于blog-springboot下。
 SQL文件位于根目录下的blog-mysql8.sql，需要MYSQL8以上版本。
@@ -22,3 +22,5 @@ SQL文件位于根目录下的blog-mysql8.sql，需要MYSQL8以上版本。
 后端： SpringBoot + nginx + SpringSecurity + Swagger2 + MyBatisPlus + Mysql + Redis + Websocket
 ## 注意事项
 + 博客图片资源只能存在Nginx的静态目录下，暂时还不支持存在腾讯云COS中，正在不停的优化中……
++ 请先运行后端项目，再启动前端项目，前端项目配置由后端动态加载。
++ 现目前暂时不支持QQ、微博第三方登录
