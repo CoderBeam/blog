@@ -10,8 +10,8 @@
 + 支持代码高亮和复制，图片预览，深色模式等功能，提升用户体验。
 + 后台管理支持修改背景图片，博客配置等信息，操作简单，支持上传相册。
 ## 技术介绍
-前端：Vue2.0、Vue-cli、Vue-Router、Vuex、Axios、ElementUI、Echarts
-后端：Spring Boot、Nginx、Spring Security、Swagger2、MyBatis Plus、MySQL、Redis、Websocket
++ 前端：Vue2.0、Vue-cli、Vue-Router、Vuex、Axios、ElementUI、Echarts
++ 后端：Spring Boot、Nginx、Spring Security、Swagger2、MyBatis Plus、MySQL、Redis、Websocket
 
 ## 注意事项
 + 博客图片资源只能存在Nginx的静态目录下，暂时还不支持存在腾讯云COS中，正在不停的优化中……
